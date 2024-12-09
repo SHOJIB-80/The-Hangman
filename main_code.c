@@ -32,7 +32,7 @@ void displayEnhancedHangman(int wrongGuesses, int maxAttempts) {
 }
 
 void selectWord(char word[]) {
-    const char *wordList[] = {"programming", "hangman", "difficulty", "challenge", "computer", "function"};
+    const char *wordList[] = {"programming", "hangman", "difficulty", "challenge", "computer", "function", "eastwest"};
     int wordCount = sizeof(wordList) / sizeof(wordList[0]);
 
     srand(time(NULL));
